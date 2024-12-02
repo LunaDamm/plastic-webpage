@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Maitree:wght@200;300;400;500;600;700&family=Quicksand:wght@300..700&family=Rufina:wght@400;700&display=swap');
+
+:root {
+
+    /* Dimensions */
+    --width-full: 100%;
+    --width-12col: 1200px;     
+
+    /* Grid Settings */
+    --grid-gap: 10px;
+    --padding-default: 20px;
+
+    /* Colors */
+    --light-blue: #C1D4D8;
+    --white: #F2F4F3;
+    --blue: #8CB7BC;
+    --green: #A7D1AA;
+    --eggshell: #F3ECDD;
+    --ligther-than-blue: #EEF1F7;
+    --darkblue: #243F58;
+    --black: #252525;
+
+}
