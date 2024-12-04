@@ -165,36 +165,20 @@ body {
   
   .footerBoxRight {
     direction: rtl;
-    justify-content: center;
-    padding-left: 10px;
-  }
-
-  
-  .footerSocials {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
   }
   
-  .footerSocials ul {
+  .footerBoxRight ul {
     list-style-type: none;
+    display: flex;
   }
   
-  .footerSocials ul li {
-    padding: 3px 0 2px 5px;
+  .footerBoxRight ul li {
+    padding: 7px;
   }
   
-  .footerSocials ul li a {
+  .footerBoxRight ul li a {
     text-decoration: none;
     color: var(--white);
     font-size: 30px;
     display: flex;
-  }
-  
-  .footerSocials ul li a i {
-    padding-right: 5px;
-  }
-  
-  .footerLinks {
-    padding-bottom: 10px;
   }
