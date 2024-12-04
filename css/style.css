@@ -233,6 +233,59 @@ h1 {
 }
 
 .heroBottomRight {
+  direction: rtl;
   margin-top: 584px;
   grid-column: 10 / span 3;
+}
+
+.heroButton button {
+  padding:20px 80px;
+  background-color: var(--green);
+  border-radius: 5px;
+  border: 0;
+  font-weight: 700;
+  font-size: 17px;
+}
+
+.heroButton button:hover {
+  cursor: pointer;
+}
+
+.illustrationBarBox {
+  margin: 42px auto 0 auto;
+  background-color: var(--white);
+  width: 800px;
+  border-radius: 5px;
+  padding: 14px 0 14px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.illustrationBarBoxStep {
+  display: flex;
+  flex-direction: column;
+  padding: 0 10px;
+}
+
+.illustrationBarBoxStepPic {
+  display: flex;
+  justify-content: center;
+  padding: 0 50px;
+  font-size: 37px;
+}
+
+.illustrationBarBoxStepPic img {
+  height: 48px;
+}
+
+.illustrationBarBoxStepText {
+  font-size: 16px;
+  text-align: center;
+  padding-top: 5px;
+}
+
+
+
+.ImASpecialLittleSvgLookAtMe {
+  padding: 0 50px 0 60px;
 }
