@@ -20,3 +20,58 @@
     --darkblue: #243F58;
     --black: #252525;
 }
+
+/* Reset CSS */
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
+
+/* Global CSS */
+
+body {
+    background-color: #dddddd;
+    font-family: "Quicksand", sans-serif;
+}
+
+.navigation {
+    background-color: #8CB7BC80;
+    position: relative;
+    z-index: 1;
+    height: 80px
+  }
+  
+  .menu-container {
+    width: var(--width-12col);
+    margin: 0 auto 0 auto;
+    height: 80px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .menu-container ul {
+    display: flex;
+    font-size: 12px;
+  }
+  
+  .menu-container ul li {
+    list-style-type: none;
+    margin:10px 0;
+  }
+  
+  .menu-container ul li a {
+    color: var(--color-light);
+    text-decoration: none;
+    text-transform: uppercase;
+    border-right: 1px solid var(--color-light);
+    padding:0 10px;
+  }
+  
+  .menu-container ul li a:hover{
+    color: var(--primary-color);
+  }
+  
+  .menu-container ul li:last-child a {
+    border-right: none;
+  }
