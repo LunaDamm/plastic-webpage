@@ -7,37 +7,56 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+<script src="lang.js"></script>
 <body>
     <div>
         <nav class="navigation">
-            <div class="menu-container">
+            <div class="menuContainer">
                 <ul>
                   <li>
-                    <a href="index.html">Home</a>
+                    <a class="textEN" href="index.html">Home</a>
+                    <a class="textDK" href="index.html">Hjem</a>
                   </li>
                   <li>
                     <a href="#">Step-by-Step</a>
                   </li>
+                  <li>
+                    <a class="textEN" href="#">What can I do?</a>
+                    <a class="textDK" href="#">Hvad kan jeg gøre?</a>
+                  </li>
                   </ul>
             </div>
-            <div class="language-changer">
-                <ul>
-                    <li>
-                        <a href="#">DK</a>
-                    </li>
-                    <li>
-                        /
-                    </li>
-                    <li>
-                        <a href="#">EN</a>
-                    </li>
-                </ul>
+            <div class="languageChanger">
+                <span class="languageCheckboxDKText">DK</span>
+                <input type="checkbox" class="languageCheckbox">
+                <span class="languageCheckboxENText">EN</span>
             </div>
         </nav>
 
-        <section>
-
+        <section class="hero">
+          <div class="heroContainer">
+            <div class="heroText textEN">
+              <h1>Change the world, cuz I surely can't</h1>
+            </div>
+            <div class="heroText textDK">
+              <h1>Red verdenen, for det kan jeg fanme ik'</h1>
+            </div>
+            <div class="heroBottomRight">
+              <div class="heroSmallText textEN">
+                <p>What are you waiting for?</p>
+              </div>
+              <div class="heroSmallText textDK">
+                <p>Hvad venter du på?</p>
+              </div>
+              <div class="heroButton">
+                <button class="textEN">Sign Here!</button>
+                <button class="textDK">Underskriv her!</button>
+              </div>
+            </div>
+          </div>
         </section>
+
+
  
         <footer>
             <div class="footerContainer">
@@ -51,12 +70,17 @@
                     <div class="footerMenus">
                       <ul>
                         <li>
-                            <a href="index.html">Home</a>
+                          <a class="textEN" href="index.html">Home</a>
+                          <a class="textDK" href="index.html">Hjem</a>
                         </li>
                         <li>
-                            <a href="#">Step-by-Step</a>
+                          <a href="#">Step-by-Step</a>
                         </li>
-                      </ul>
+                        <li>
+                          <a class="textEN" href="#">What can I do?</a>
+                          <a class="textDK" href="#">Hvad kan jeg gøre?</a>
+                        </li>
+                        </ul>
                     </div>
                   </div>
                   <div class="footerBoxRight">
