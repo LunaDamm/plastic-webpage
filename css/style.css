@@ -314,9 +314,18 @@ h1 {
   height: 281px;
   width: 755px;
   border-radius: 5px;
-  padding: 0px 0 0px 0;
+  padding: 0 0 0px 0;
 }
 
+.BottomTrashIcon {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 50px 50px 0;
+}
+
+.BottomTrashIcon img {
+  height:800px;
+}
 
 /* End of Mathias */
 
