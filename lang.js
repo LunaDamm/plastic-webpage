@@ -1,3 +1,5 @@
+/* MED HJÆLP AF CHATGPT :D */
+
 document.addEventListener('DOMContentLoaded', function () {
     const languageCheckbox = document.querySelector('.languageCheckbox');
     const textEN = document.querySelectorAll('.textEN');
