@@ -305,6 +305,42 @@ h1 {
   padding: 0 50px 0 60px;
 }
 
+.seagullSection {
+/*   display:grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: auto auto auto;
+  gap: var(--grid-gap); */
+  height: 100%;
+  width: var(--width-12col);
+  margin: 42px auto 0 auto;
+}
+
+.seagullBox {
+  background-color: var(--light-blue);
+  width: var(--width-12col);
+  height: 240px;
+  border-radius: 5px;
+}
+
+.seagullBoxContent {
+  padding: 20px 40% 20px 25px;
+}
+
+.seagullText h2 {
+  font-family: "Rufina";
+}
+
+.seagullText h5 {
+  font-family: "Maitree";
+}
+
+.seagullText p {
+  padding-bottom: 3px;
+}
+
+.seagullWave {
+  margin-top: -30px;
+}
 
 /* Mathias */
 
