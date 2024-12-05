@@ -326,7 +326,27 @@ h1 {
 
 
 /* STEPS.HTML */
+.heroTextSubpage {
+  grid-column: 7 / span 6;
+  grid-row: 1;
+  margin-top: 300px;
+  color: var(--eggshell);
+  font-family: "Rufina";
+  font-size: 48px;
+}
 
+.heroBottomRightSubpage {
+  margin-top: 365px;
+  grid-column: 7 / span 6;
+  grid-row: 1;
+}
+
+.heroSmallTextSubpage {
+  font-size: 24px;
+  color: var(--eggshell);
+}
+
+/*THE FOUR TEXT BOXES FOR STEP-BY-STEP SUBPAGE*/
 
 
 
