@@ -289,12 +289,19 @@ h1 {
 }
 
 
+/* Mathias */
+
+.VideoSectionTextBox {
+  margin: 42px 42px 42px 42px;
+  background-color: #C1D4D8;
+  height: 281px;
+  width: 755px;
+  border-radius: 5px;
+  padding: 0px 0 0px 0;
+}
 
 
-
-
-
-
+/* End of Mathias */
 
 
 
@@ -372,5 +379,7 @@ h1 {
 
 
 
+
+/* WHAT.HTML */
 
 
