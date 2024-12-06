@@ -383,8 +383,26 @@ h1 {
 
 /* Mathias */
 
+.VideoSection {
+  /*   display:grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto auto auto;
+    gap: var(--grid-gap); */
+    height: 100%;
+    width: var(--width-12col);
+    margin: 42px auto 0 auto;
+  }
+
+.VideoBox {
+  background-color: #F2F4F3;
+  height: 364px;
+  width: 649px;
+  border-radius: 5px;
+  margin-bottom: 42px;
+}
+
 .VideoSectionTextBox {
-  margin: 42px 42px 42px 42px;
+
   background-color: #C1D4D8;
   height: 281px;
   width: 755px;
