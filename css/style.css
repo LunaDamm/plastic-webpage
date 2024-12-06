@@ -668,22 +668,6 @@ border-radius: 5px;
 
 
 /* SLIDESHOW */
-/*
-.slideshowContainer {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-}
-
-.slideshowImage {
-  grid-column: 3 / span 8;
-height: 500px;
-  background-image: url('https://picsum.photos/1200/600');
-  background-size: cover;
-  grid-row: 1;
-  border-radius: 5px;
-  margin-top: 150px;
-}*/
-
 
 /*prøvet ud fra en YT video ------------ SKAL KIGGES NÆRMERE PÅ*/
 .slideshowContainer {
@@ -730,6 +714,17 @@ z-index: 1;
 
 .sliderNav a:hover {
   opacity: 100%;
+}
+
+/* underskriv knap*/
+.underskriv {
+display: grid;
+grid-template-columns: repeat(12, 1fr);
+}
+
+.underskrivTextBox {
+height: 30px;
+width: 50px;
 }
 
 /* Emilie END*/
