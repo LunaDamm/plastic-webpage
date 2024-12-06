@@ -682,7 +682,7 @@ border-radius: 5px;
 
 
 /* SLIDESHOW */
-
+/*
 .slideshowContainer {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -696,8 +696,53 @@ height: 500px;
   grid-row: 1;
   border-radius: 5px;
   margin-top: 150px;
+}*/
+
+.slideshowContainer {
+  position: relative;
+  max-width: 60rem;
+  margin: 150px auto;
 }
 
+.slider {
+display: flex;
+aspect-ratio: 16 / 9;
+overflow-x: auto;
+scroll-snap-type: x mandatory;
+scroll-behavior: smooth;
+border-radius: 5px;
+
+}
+
+.slider img {
+  flex: 1 0 100%;
+  scroll-snap-align: start;
+  object-fit: cover;
+
+}
+
+.sliderNav {
+  display: flex;
+  column-gap: 1rem;
+position: absolute;
+bottom: 1.25rem;
+left: 50%;
+transform: translate(-50%);
+z-index: 1;
+}
+
+.sliderNav a {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background-color: antiquewhite;
+  opacity: 0.75;
+  transition: opacity ease 250ms;
+}
+
+.sliderNav a:hover {
+  opacity: 100%;
+}
 
 /* Emilie END*/
 
