@@ -396,6 +396,7 @@ h1 {
   }
 
 .VideoBox {
+  /* Tom kasse til Video */
   background-color: #F2F4F3;
   height: 364px;
   width: 649px;
@@ -404,12 +405,10 @@ h1 {
 }
 
 .VideoSectionTextBox {
-
   background-color: #C1D4D8;
   height: 281px;
   width: 755px;
   border-radius: 5px;
-  padding: 0 0 0 0;
 }
 
 .VideoSectionTextBoxText {
@@ -419,7 +418,8 @@ h1 {
 .BottomTrashIcon {
   display: flex;
   justify-content: flex-end;
-  padding: 0 50px 50px 0;
+  padding: 0px 0px 0px 0px;
+  margin-bottom: 42px;
 }
 
 .BottomTrashIcon img {
