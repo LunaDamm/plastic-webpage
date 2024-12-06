@@ -343,71 +343,6 @@ h1 {
   margin-top: -30px;
 }
 
-
-/* Start of Mikkel*/
-
-.socialPicSection {
-  /*   display:grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: auto auto auto;
-    gap: var(--grid-gap); */
-    height: 100%;
-    width: var(--width-12col);
-    margin: 42px auto 0 auto;
-  }
-  
-  .socialPicSectionBox {
-    background-color: var(--light-blue);
-    width: var(--width-12col);
-    height: 530px;
-    border-radius: 5px;
-  }
-  
-  .SocialPicSectionBoxContent {
-    padding: 20px 40% 20px 25px;
-  }
-
-  .socialPicSectionText h2 {
-    font-family: "Rufina";
-    padding: 20px 20px 0px 25px;
-  }
-
-
-  /* Start of Mikkel*/
-
-
-
-
-
-
-
-/* Mathias */
-
-.VideoSectionTextBox {
-  margin: 42px 42px 42px 42px;
-  background-color: #C1D4D8;
-  height: 281px;
-  width: 755px;
-  border-radius: 5px;
-  padding: 0 0 0 0;
-}
-
-.VideoSectionTextBoxText {
-  padding: 20px 20px 0px 25px;
-}
-
-.BottomTrashIcon {
-  display: flex;
-  justify-content: flex-end;
-  padding: 0 50px 50px 0;
-}
-
-.BottomTrashIcon img {
-  height:800px;
-}
-
-/* End of Mathias */
-
 /* Start of Mikkel*/
 
 .socialPicSection {
@@ -441,6 +376,40 @@ h1 {
   width: 33.33%;
   padding: 5px;
   }
+
+/* End of Mikkel*/
+
+
+
+
+
+/* Mathias */
+
+.VideoSectionTextBox {
+  margin: 42px 42px 42px 42px;
+  background-color: #C1D4D8;
+  height: 281px;
+  width: 755px;
+  border-radius: 5px;
+  padding: 0 0 0 0;
+}
+
+.VideoSectionTextBoxText {
+  padding: 20px 20px 0px 25px;
+}
+
+.BottomTrashIcon {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 50px 50px 0;
+}
+
+.BottomTrashIcon img {
+  height:800px;
+}
+
+/* End of Mathias */
+
 
 
 
