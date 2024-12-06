@@ -31,8 +31,9 @@
 /* Global CSS */
 
 body {
-    background-color: #dddddd;
-    font-family: "Quicksand", sans-serif;
+  background: rgb(238,241,247);
+  background: linear-gradient(180deg, rgba(238,241,247,1) 0%, rgba(193,212,216,1) 100%);
+  font-family: "Quicksand", sans-serif;
 }
 
 h1 {
