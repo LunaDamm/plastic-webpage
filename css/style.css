@@ -673,7 +673,7 @@ border-radius: 5px;
 .slideshowContainer {
   position: relative;
   max-width: 60rem;
-  margin: 150px auto;
+  margin: 100px auto 50px auto;
 }
 
 .slider {
@@ -716,16 +716,36 @@ z-index: 1;
   opacity: 100%;
 }
 
-/* underskriv knap*/
-.underskriv {
+/* underskriv knap og text*/
+.signHere {
 display: grid;
 grid-template-columns: repeat(12, 1fr);
 }
 
-.underskrivTextBox {
-height: 30px;
-width: 50px;
+.signHereTextBox {
+grid-column: 5 / span 4;
 }
+
+.signHereText {
+  font-family: "Quicksand", sans-serif;
+  font-size: 24px;
+}
+
+.signHereButton button {
+  padding:20px 80px;
+  background-color: var(--green);
+  border-radius: 5px;
+  border: 0;
+  font-weight: 700;
+  font-size: 17px;
+  grid-column: 5 / span 2;
+}
+
+.signHereButton button:hover {
+  cursor: pointer;
+}
+
+
 
 /* Emilie END*/
 
