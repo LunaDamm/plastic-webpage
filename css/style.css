@@ -343,6 +343,44 @@ h1 {
   margin-top: -30px;
 }
 
+
+/* Start of Mikkel*/
+
+.socialPicSection {
+  /*   display:grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto auto auto;
+    gap: var(--grid-gap); */
+    height: 100%;
+    width: var(--width-12col);
+    margin: 42px auto 0 auto;
+  }
+  
+  .socialPicSectionBox {
+    background-color: var(--light-blue);
+    width: var(--width-12col);
+    height: 530px;
+    border-radius: 5px;
+  }
+  
+  .SocialPicSectionBoxContent {
+    padding: 20px 40% 20px 25px;
+  }
+
+  .socialPicSectionText h2 {
+    font-family: "Rufina";
+    padding: 20px 20px 0px 25px;
+  }
+
+
+  /* Start of Mikkel*/
+
+
+
+
+
+
+
 /* Mathias */
 
 .VideoSectionTextBox {
@@ -370,10 +408,51 @@ h1 {
 
 /* End of Mathias */
 
+/* Start of Mikkel*/
+
+.socialPicSection {
+  /*   display:grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto auto auto;
+    gap: var(--grid-gap); */
+    height: 100%;
+    width: var(--width-12col);
+    margin: 42px auto 0 auto;
+  }
+  
+  .socialPicSectionBox {
+    background-color: var(--light-blue);
+    width: var(--width-12col);
+    height: 530px;
+    border-radius: 5px;
+  }
+  
+  .SocialPicSectionBoxContent {
+    padding: 20px 40% 20px 25px;
+  }
+
+  .socialPicSectionText h2 {
+    font-family: "Rufina";
+    padding: 20px 20px 0px 25px;
+  }
+
+  .socialPicSectionImageOne {
+    grid-column: 2 / span 4;
+    margin-right: 10px;
+    margin-top: 100px;
+    background-image: url('https://picsum.photos/1200/600');
+    background-size: cover;
+    grid-row: 1;
+    border-radius: 5px;
+  }
 
 
 
+  
 
+  
+
+  
 
 
 
