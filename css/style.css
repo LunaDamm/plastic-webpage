@@ -343,7 +343,7 @@ h1 {
   margin-top: -30px;
 }
 
-/* Start of Mikkel*/
+/* Start of Mikkel - SocialPicSection*/
 
 .socialPicSection {
   /*   display:grid;
@@ -375,7 +375,11 @@ h1 {
     float: left;
   width: 33.33%;
   padding: 5px;
+  padding-left: 40px;
+  margin-top: 45px;
   }
+
+
 
 /* End of Mikkel*/
 
