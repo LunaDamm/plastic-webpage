@@ -2,38 +2,39 @@
 
 :root {
 
-    /* Dimensions */
-    --width-full: 100%;
-    --width-12col: 1200px;     
+  /* Dimensions */
+  --width-full: 100%;
+  --width-12col: 1200px;
 
-    /* Grid Settings */
-    --grid-gap: 10px;
-    --padding-default: 20px;
+  /* Grid Settings */
+  --grid-gap: 10px;
+  --padding-default: 20px;
 
-    /* Colors */
-    --light-blue: #C1D4D8;
-    --white: #F2F4F3;
-    --blue: #8CB7BC;
-    --green: #A7D1AA;
-    --eggshell: #F3ECDD;
-    --ligther-than-blue: #EEF1F7;
-    --darkblue: #243F58;
-    --black: #252525;
+  /* Colors */
+  --light-blue: #C1D4D8;
+  --white: #F2F4F3;
+  --blue: #8CB7BC;
+  --green: #A7D1AA;
+  --eggshell: #F3ECDD;
+  --ligther-than-blue: #EEF1F7;
+  --darkblue: #243F58;
+  --black: #252525;
 }
 
 /* Reset CSS */
 * {
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 /* Global CSS */
 
 body {
-  background: rgb(238,241,247);
-  background: linear-gradient(180deg, rgba(238,241,247,1) 0%, rgba(193,212,216,1) 100%);
+  background: rgb(238, 241, 247);
+  background: linear-gradient(180deg, rgba(238, 241, 247, 1) 0%, #CADADE 100%);
   font-family: "Quicksand", sans-serif;
+  color: var(--black);
 }
 
 h1 {
@@ -43,55 +44,55 @@ h1 {
 /* NAVBAR */
 
 .navigation {
-    background-color: #8CB7BC80;
-    position: relative;
-    z-index: 1;
-    height: 86px;
-    display:flex;
-  }
-  
-  .menuContainer {
-    width: 600px;
-    margin: 0 auto 0 auto;
-    height: 86px;
-    display: flex;
-    align-items: center;
-  }
-  
-  .menuContainer ul {
-    display: flex;
-    font-size: 14px;
-  }
-  
-  .menuContainer ul li {
-    list-style-type: none;
-    margin:10px 0;
-  }
-  
-  .menuContainer ul li a {
-    color: var(--color-light);
-    text-decoration: none;
-    border-right: 1px solid var(--blue);
-    padding:0 10px;
-    
-  }
-  
-  .menuContainer ul li a:hover{
-    color: var(--eggshell);
-  }
-  
-  .menuContainer ul li:last-child a {
-    border-right: none;
-  }
+  background-color: #8CB7BC80;
+  position: relative;
+  z-index: 1;
+  height: 86px;
+  display: flex;
+}
 
-  .languageChanger {
-    direction: rtl;
-    width: 600px;
-    margin: 0 auto 0 auto;
-    height: 86px;
-    display: flex;
-    align-items: center;
-  }
+.menuContainer {
+  width: 600px;
+  margin: 0 auto 0 auto;
+  height: 86px;
+  display: flex;
+  align-items: center;
+}
+
+.menuContainer ul {
+  display: flex;
+  font-size: 14px;
+}
+
+.menuContainer ul li {
+  list-style-type: none;
+  margin: 10px 0;
+}
+
+.menuContainer ul li a {
+  color: var(--color-light);
+  text-decoration: none;
+  border-right: 1px solid var(--blue);
+  padding: 0 10px;
+
+}
+
+.menuContainer ul li a:hover {
+  color: var(--eggshell);
+}
+
+.menuContainer ul li:last-child a {
+  border-right: none;
+}
+
+.languageChanger {
+  direction: rtl;
+  width: 600px;
+  margin: 0 auto 0 auto;
+  height: 86px;
+  display: flex;
+  align-items: center;
+}
 
 /* STYLING OF LANG BUTTON  */
 
@@ -112,14 +113,14 @@ h1 {
 /* fucking browsers kan ik blive enige hvad margin er, wtf */
 @-moz-document url-prefix() {
   .languageCheckbox {
-      margin-left: 27px;
-      margin-right: 0px;
+    margin-left: 27px;
+    margin-right: 0px;
   }
 }
 
 
 .languageCheckbox::after {
-  content:'';
+  content: '';
   position: absolute;
   left: 0px;
   width: 15px;
@@ -143,74 +144,74 @@ h1 {
 /* FOOTER */
 
 .footerContainer {
-    padding: 32px 0;
-    background-color: var(--darkblue);
-    width: var(--width-full);
-  }
-  
-  .footerBox {
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: auto auto auto;
-    width: var(--width-12col);
-  }
-  
-  .footerBoxLeft {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    border-right: 1px solid var(--color-light);
-  }
+  padding: 32px 0;
+  background-color: var(--darkblue);
+  width: var(--width-full);
+}
 
-  .footerCopyright {
-    display: flex;
-    align-items: center;
-    font-size: 14px;
-    color: var(--white);
-  }
-  
-  .footerMenus{
-    display: flex;
-  }
-  
-  .footerMenus ul {
-    list-style-type: none;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  
-  .footerMenus ul li {
-    padding: 3px 0 2px 0;
-  }
-  
-  .footerMenus ul li a {
-    text-decoration: none;
-    color: var(--white);
-    font-size: 13px;
-  }
-  
-  .footerBoxRight {
-    direction: rtl;
-    display: flex;
-    align-items: center;
-  }
-  
-  .footerBoxRight ul {
-    list-style-type: none;
-    display: flex;
-  }
-  
-  .footerBoxRight ul li {
-    padding: 7px;
-  }
-  
-  .footerBoxRight ul li a {
-    text-decoration: none;
-    color: var(--white);
-    font-size: 30px;
-    display: flex;
-  }
+.footerBox {
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto auto auto;
+  width: var(--width-12col);
+}
+
+.footerBoxLeft {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-right: 1px solid var(--color-light);
+}
+
+.footerCopyright {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: var(--white);
+}
+
+.footerMenus {
+  display: flex;
+}
+
+.footerMenus ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footerMenus ul li {
+  padding: 3px 0 2px 0;
+}
+
+.footerMenus ul li a {
+  text-decoration: none;
+  color: var(--white);
+  font-size: 13px;
+}
+
+.footerBoxRight {
+  direction: rtl;
+  display: flex;
+  align-items: center;
+}
+
+.footerBoxRight ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.footerBoxRight ul li {
+  padding: 7px;
+}
+
+.footerBoxRight ul li a {
+  text-decoration: none;
+  color: var(--white);
+  font-size: 30px;
+  display: flex;
+}
 
 
 /* INDEX.HTML */
@@ -222,7 +223,7 @@ h1 {
 }
 
 .heroContainer {
-  display:grid;
+  display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: auto auto auto;
   gap: var(--grid-gap);
@@ -245,9 +246,10 @@ h1 {
 }
 
 .heroText {
-  grid-column: 1 / span 5;
+  grid-column: 1 / span 6;
   grid-row: 1;
   margin-top: 192px;
+  font-size: 20px;
 }
 
 .heroBottomRight {
@@ -257,16 +259,22 @@ h1 {
 }
 
 .heroButton button {
-  padding:20px 80px;
+  padding: 20px 80px;
   background-color: var(--green);
   border-radius: 5px;
   border: 0;
   font-weight: 700;
   font-size: 17px;
+  font-family: "Quicksand";
 }
 
 .heroButton button:hover {
   cursor: pointer;
+}
+
+.heroButton button a {
+  text-decoration: none;
+  color: var(--black);
 }
 
 .illustrationBarBox {
@@ -307,7 +315,7 @@ h1 {
 }
 
 .seagullSection {
-/*   display:grid;
+  /*   display:grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: auto auto auto;
   gap: var(--grid-gap); */
@@ -329,56 +337,94 @@ h1 {
 
 .seagullText h2 {
   font-family: "Rufina";
+  font-size: 28px;
+  color: var(--darkblue);
 }
 
 .seagullText h5 {
   font-family: "Maitree";
+  font-size: 20px;
+  padding: 0 0 5px 0;
 }
 
 .seagullText p {
-  padding-bottom: 3px;
+  padding-bottom: 8px;
+  font-size: 16px;
+}
+
+.seagullSeagulls {
+  position: absolute;
+  margin-left: 900px;
 }
 
 .seagullWave {
-  margin-top: -30px;
+  margin-top: -25px;
+}
+
+.seagullWave img {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.seagullButton button {
+  padding: 10px 20px;
+  background-color: var(--blue);
+  border-radius: 5px;
+  border: 0;
+  font-size: 14px;
+  margin-top: 6px;
+}
+
+.seagullButton button a {
+  font-size: 16px;
+  text-decoration: none;
+  color: var(--black);
+  font-weight: 600;
+  font-family: "Quicksand";
+}
+
+.seagullButton button:hover {
+  cursor: pointer;
 }
 
 /* Start of Mikkel - SocialPicSection*/
 
 .socialPicSection {
-  /*   display:grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: auto auto auto;
-    gap: var(--grid-gap); */
-    height: 100%;
-    width: var(--width-12col);
-    margin: 42px auto 0 auto;
-  }
-  
-  .socialPicSectionBox {
-    background-color: var(--light-blue);
-    width: var(--width-12col);
-    height: 530px;
-    border-radius: 5px;
-  }
-  
-  .SocialPicSectionBoxContent {
-    padding: 20px 40% 20px 25px;
-  }
+  height: 100%;
+  width: var(--width-12col);
+  margin: 42px auto 0 auto;
+}
 
-  .socialPicSectionText h2 {
-    font-family: "Rufina";
-    padding: 20px 20px 0px 25px;
-  }
+.socialPicSectionBox {
+  background-color: var(--light-blue);
+  width: var(--width-12col);
+  height: 460px;
+  border-radius: 5px;
+}
 
-  .socialPicSectionImage {
-    float: left;
-  width: 33.33%;
-  padding: 5px;
-  padding-left: 40px;
-  margin-top: 45px;
-  }
+.socialPicSectionText h2 {
+  font-family: "Rufina";
+  padding: 20px 20px 0px 25px;
+  font-size: 28px;
+  color: var(--darkblue);
+}
 
+.socialPicSectionPosts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 400px;
+  padding: 0 50px;
+}
+
+.socialPicSectionPostText {
+  max-width: 320px;
+  height: 40px;
+}
+
+.socialPicSectionImage img {
+  border-radius: 5px;
+}
 
 
 /* End of Mikkel*/
@@ -390,44 +436,49 @@ h1 {
 /* Mathias */
 
 .VideoSection {
-  /*   display:grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: auto auto auto;
-    gap: var(--grid-gap); */
-    height: 100%;
-    width: var(--width-12col);
-    margin: 42px auto 0 auto;
-  }
+  display:grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: auto auto auto;
+  gap: var(--grid-gap);
+  height: 100%;
+  width: var(--width-12col);
+  margin: 42px auto 0 auto;
+}
 
 .VideoBox {
   /* Tom kasse til Video */
   background-color: #F2F4F3;
   height: 364px;
-  width: 649px;
+  grid-column: 1 / span 7;
   border-radius: 5px;
-  margin-bottom: 42px;
+  margin-bottom: 10px;
 }
 
 .VideoSectionTextBox {
   background-color: #C1D4D8;
-  height: 281px;
-  width: 755px;
   border-radius: 5px;
+  grid-column: 1 / span 8;
+  grid-row: 2;
+  margin-bottom: 30px;
 }
 
-.VideoSectionTextBoxText {
-  padding: 20px 20px 0px 25px;
+.VideoSectionTextBoxText h1 {
+  padding: 20px 0px 0px 25px;
+  color: var(--darkblue);
+  font-size: 28px
+}
+
+.VideoSectionTextBoxText p {
+  padding: 5px 25px 20px 25px;
 }
 
 .BottomTrashIcon {
-  display: flex;
-  justify-content: flex-end;
-  padding: 0px 0px 0px 0px;
-  margin-bottom: 42px;
+  margin-left: 750px;
+  position: absolute
 }
 
 .BottomTrashIcon img {
-  height: 687px;
+  height: 600px;
 }
 
 /* End of Mathias */
@@ -436,9 +487,9 @@ h1 {
 
 
 
-  
 
-  
+
+
 
 
 
@@ -471,7 +522,7 @@ h1 {
   margin-top: -86px;
   width: var(--width-full);
   height: 786px;
-background-image: url('https://picsum.photos/1200/600');
+  background-image: url('https://picsum.photos/1200/600');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -501,12 +552,15 @@ background-image: url('https://picsum.photos/1200/600');
 .infoBoxesContainer {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: auto auto auto;
+  gap: var(--grid-gap);
+  height: 100%;
+  width: var(--width-12col);
+  margin: 0 auto 0 auto;
 }
 
 .infoBoxesContainerOne {
-  grid-column: 2 / span 10;
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
+
 }
 
 .infoBoxesContainerImage {
@@ -523,9 +577,12 @@ background-image: url('https://picsum.photos/1200/600');
   grid-column: 6 / span 6;
   height: 281px;
   margin-top: 100px;
-border-radius: 5px;
+  border-radius: 5px;
   background-color: var(--light-blue);
   grid-row: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .infoBoxesContainerTwo {
@@ -539,7 +596,7 @@ border-radius: 5px;
   margin-top: 50px;
   background-image: url('https://picsum.photos/1200/600');
   background-size: cover;
-  grid-row: 1;
+  grid-row: 2;
   border-radius: 5px;
 }
 
@@ -548,9 +605,12 @@ border-radius: 5px;
   height: 281px;
   margin-top: 50px;
   margin-right: 10px;
-border-radius: 5px;
+  border-radius: 5px;
   background-color: var(--light-blue);
-  grid-row: 1;
+  grid-row: 2;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .infoBoxesContainerThree {
@@ -565,7 +625,7 @@ border-radius: 5px;
   margin-top: 50px;
   background-image: url('https://picsum.photos/1200/600');
   background-size: cover;
-  grid-row: 1;
+  grid-row: 3;
   border-radius: 5px;
 }
 
@@ -573,9 +633,12 @@ border-radius: 5px;
   grid-column: 6 / span 6;
   height: 281px;
   margin-top: 50px;
-border-radius: 5px;
+  border-radius: 5px;
   background-color: var(--light-blue);
-  grid-row: 1;
+  grid-row: 3;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .infoBoxesContainerFour {
@@ -589,7 +652,7 @@ border-radius: 5px;
   margin-top: 50px;
   background-image: url('https://picsum.photos/1200/600');
   background-size: cover;
-  grid-row: 1;
+  grid-row: 4;
   border-radius: 5px;
 }
 
@@ -600,68 +663,70 @@ border-radius: 5px;
   margin-right: 10px;
   border-radius: 5px;
   background-color: var(--light-blue);
-  grid-row: 1;
-
+  grid-row: 4;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 /*selve teksten og overskrifterne starter her*/
 
 .infoBoxesContainerTextBoxHeader {
   font-family: "Rufina";
-  font-size: 32px;
+  font-size: 28px;
   color: var(--darkblue);
-  padding: 20px 25px 0 25px;
+  padding: 0px 25px 0 25px;
 
 }
 
 .infoBoxesContainerTextBoxMain {
   font-family: "Quicksand", sans-serif;
   font-size: 16px;
-  padding: 8px 25px 20px 25px;
+  padding: 8px 25px 15px 25px;
 }
 
 .infoBoxesContainerTextBoxHeaderTwo {
   font-family: "Rufina";
-  font-size: 32px;
+  font-size: 28px;
   color: var(--darkblue);
-  padding: 20px 25px 0 25px;
+  padding: 0px 25px 0 25px;
 
 }
 
 .infoBoxesContainerTextBoxMainTwo {
   font-family: "Quicksand", sans-serif;
   font-size: 16px;
-  padding: 8px 25px 20px 25px;
+  padding: 8px 25px 15px 25px;
 
 }
 
 .infoBoxesContainerTextBoxHeaderThree {
   font-family: "Rufina";
-  font-size: 32px;
+  font-size: 28px;
   color: var(--darkblue);
-  padding: 20px 25px 0 25px;
+  padding: 0px 25px 0 25px;
 
 }
 
 .infoBoxesContainerTextBoxMainThree {
   font-family: "Quicksand", sans-serif;
   font-size: 16px;
-  padding: 8px 25px 20px 25px;
+  padding: 8px 25px 15px 25px;
 
 }
 
 .infoBoxesContainerTextBoxHeaderFour {
   font-family: "Rufina";
-  font-size: 32px;
+  font-size: 28px;
   color: var(--darkblue);
-  padding: 20px 25px 0 25px;
+  padding: 0px 25px 0 25px;
 
 }
 
 .infoBoxesContainerTextBoxMainFour {
   font-family: "Quicksand", sans-serif;
   font-size: 16px;
-  padding: 8px 25px 20px 25px;
+  padding: 8px 25px 15px 25px;
 }
 
 /*selve teksten og overskrifterne slutter her*/
@@ -677,12 +742,12 @@ border-radius: 5px;
 }
 
 .slider {
-display: flex;
-aspect-ratio: 16 / 9;
-overflow-x: auto;
-scroll-snap-type: x mandatory;
-scroll-behavior: smooth;
-border-radius: 5px;
+  display: flex;
+  aspect-ratio: 16 / 9;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  border-radius: 5px;
 
 }
 
@@ -696,11 +761,11 @@ border-radius: 5px;
 .sliderNav {
   display: flex;
   column-gap: 1rem;
-position: absolute;
-bottom: 1.25rem;
-left: 50%;
-transform: translate(-50%);
-z-index: 1;
+  position: absolute;
+  bottom: 1.25rem;
+  left: 50%;
+  transform: translate(-50%);
+  z-index: 1;
 }
 
 .sliderNav a {
@@ -718,12 +783,20 @@ z-index: 1;
 
 /* underskriv knap og text*/
 .signHere {
-display: grid;
-grid-template-columns: repeat(12, 1fr);
+  display:grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: auto auto auto;
+  gap: var(--grid-gap);
+  height: 100%;
+  width: var(--width-12col);
+  margin: 42px auto 30px auto;
 }
 
 .signHereTextBox {
-grid-column: 5 / span 4;
+  grid-column: 2 / span 4;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .signHereText {
@@ -731,20 +804,29 @@ grid-column: 5 / span 4;
   font-size: 24px;
 }
 
+.signHereButton {
+  grid-column: 9 / span 3;
+  direction: rtl;
+}
+
 .signHereButton button {
-  padding:20px 80px;
+  padding: 20px 80px;
   background-color: var(--green);
   border-radius: 5px;
   border: 0;
   font-weight: 700;
   font-size: 17px;
-  grid-column: 5 / span 2;
+  font-family: "Quicksand";
 }
 
 .signHereButton button:hover {
   cursor: pointer;
 }
 
+.signHereButton button a {
+  text-decoration: none;
+  color: var(--black);
+}
 
 
 /* Emilie END*/
@@ -795,5 +877,3 @@ grid-column: 5 / span 4;
 
 
 /* WHAT.HTML */
-
-
