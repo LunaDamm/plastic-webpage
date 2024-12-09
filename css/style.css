@@ -327,7 +327,7 @@ h1 {
 .seagullBox {
   background-color: var(--light-blue);
   width: var(--width-12col);
-  height: 240px;
+  height: 310px;
   border-radius: 5px;
 }
 
@@ -358,7 +358,7 @@ h1 {
 }
 
 .seagullWave {
-  margin-top: -25px;
+  margin-top: -170px;
 }
 
 .seagullWave img {
@@ -522,14 +522,14 @@ h1 {
   margin-top: -86px;
   width: var(--width-full);
   height: 786px;
-  background-image: url('https://picsum.photos/1200/600');
+/*   background-image: url('https://picsum.photos/1200/600');
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
 }
 
 .heroTextSubpage {
-  grid-column: 7 / span 6;
+  grid-column: 1 / span 6;
   grid-row: 1;
   margin-top: 300px;
   color: var(--eggshell);
@@ -539,7 +539,7 @@ h1 {
 
 .heroBottomRightSubpage {
   margin-top: 365px;
-  grid-column: 7 / span 6;
+  grid-column: 1 / span 6;
   grid-row: 1;
 }
 
