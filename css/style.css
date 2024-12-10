@@ -828,6 +828,74 @@ h1 {
   color: var(--black);
 }
 
+@media (width < 768px) {
+
+  .infoBoxesContainer {
+    width: var(--width-full);
+    display: block;
+  }
+
+  .infoBoxesContainerText {
+    width: var(--width-full);
+    margin-top: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+  }
+
+  .infoBoxesContainerImage {
+    width: var(--width-full);
+    height: 400px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+
+  .infoBoxesContainerTextTwo {
+    width: var(--width-full);
+    margin-top: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+  }
+
+  .infoBoxesContainerImageTwo {
+    width: var(--width-full);
+    height: 400px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+
+  .infoBoxesContainerTextThree {
+    width: var(--width-full);
+    margin-top: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+  }
+  .infoBoxesContainerImageThree {
+    width: var(--width-full);
+    height: 400px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+
+  .infoBoxesContainerTextFour {
+    width: var(--width-full);
+    margin-top: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+  }
+
+  .infoBoxesContainerImageFour {
+    width: var(--width-full);
+    height: 400px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+
+  .signHere {
+    width: var(--width-full);
+  }
+
+
+}
 
 /* Emilie END*/
 
