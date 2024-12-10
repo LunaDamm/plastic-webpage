@@ -831,7 +831,7 @@ h1 {
 
 
 /*subpage*/
-@media (width < 768px) {
+@media (width < 760px) {
 
   .infoBoxesContainer {
     width: var(--width-full);
@@ -908,12 +908,18 @@ h1 {
 
   .signHereTextBox {
     width: var(--width-full);
-    margin-left: 120px;
+    /*margin-left: 120px;*/
     margin-bottom: 30px;
+    text-align: center;
   }
 
   .signHereButton {
-    margin-right: 190px;
+    width: var(--width-full);
+    direction: ltr;
+    display: grid;
+    align-items: center;
+    padding-right: 150px;
+    padding-left: 150px;
   }
 
 
