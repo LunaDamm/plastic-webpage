@@ -850,16 +850,23 @@ h1 {
 .heroTextSubpage {
   width: var(--width-full);
   font-size: 30px;
+  margin-top: 150px;
+}
+
+.heroBottomRightSubpage {
+margin-top: 200px;
 }
 
 .heroSmallTextSubpage {
   width: var(--width-full);
   font-size: 20px;
+
 }
 
   .infoBoxesContainer {
     width: var(--width-full);
     display: block;
+    margin-top: 450px;
   }
 
   .infoBoxesContainerImage {
