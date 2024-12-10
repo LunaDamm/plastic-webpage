@@ -855,18 +855,18 @@ h1 {
 
 .heroBottomRightSubpage {
 margin-top: 200px;
+grid-column: 1 / span 8;
 }
 
 .heroSmallTextSubpage {
   width: var(--width-full);
   font-size: 20px;
-
 }
 
   .infoBoxesContainer {
     width: var(--width-full);
     display: block;
-    margin-top: 450px;
+    margin-top: 430px;
   }
 
   .infoBoxesContainerImage {
