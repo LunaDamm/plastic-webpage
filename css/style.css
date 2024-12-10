@@ -533,7 +533,6 @@ h1 {
 .heroSubpage {
   margin-top: -86px;
   width: var(--width-full);
-  height: 786px;
 /*   background-image: url('https://picsum.photos/1200/600');
   background-position: center center;
   background-repeat: no-repeat;
@@ -568,7 +567,7 @@ h1 {
   gap: var(--grid-gap);
   height: 100%;
   width: var(--width-12col);
-  margin: 0 auto 0 auto;
+  margin: 250px auto 0 auto;
 }
 
 .infoBoxesContainerOne {
@@ -850,12 +849,12 @@ h1 {
 
 .heroTextSubpage {
   width: var(--width-full);
-  font-size: 24px;
+  font-size: 30px;
 }
 
 .heroSmallTextSubpage {
   width: var(--width-full);
-  font-size: 15px;
+  font-size: 20px;
 }
 
   .infoBoxesContainer {
