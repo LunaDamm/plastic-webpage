@@ -738,7 +738,7 @@ h1 {
 .slideshowContainer {
   position: relative;
   max-width: 60rem;
-  margin: 100px auto 50px auto;
+  margin: 100px auto 30px auto;
 }
 
 .slider {
@@ -853,11 +853,9 @@ h1 {
   }
 
   .infoBoxesContainerTextBoxHeader {
-    font-size: 40px;
   }
 
   .infoBoxesContainerTextBoxMain {
-    font-size: 18px;
   }
 
  .infoBoxesContainerImageTwo {
@@ -876,11 +874,9 @@ h1 {
   }
 
   .infoBoxesContainerTextBoxHeaderTwo {
-    font-size: 40px;
   }
 
   .infoBoxesContainerTextBoxMainTwo {
-    font-size: 18px;
   }
 
    .infoBoxesContainerImageThree {
@@ -900,11 +896,9 @@ h1 {
   }
 
   .infoBoxesContainerTextBoxHeaderThree {
-    font-size: 40px;
   }
 
   .infoBoxesContainerTextBoxMainThree {
-    font-size: 18px;
   }
 
  .infoBoxesContainerImageFour {
@@ -923,11 +917,15 @@ h1 {
   }
 
   .infoBoxesContainerTextBoxHeaderFour {
-    font-size: 40px;
   }
 
   .infoBoxesContainerTextBoxMainFour {
-    font-size: 18px;
+  }
+
+  .slideshowContainer {
+    position: relative;
+    max-width: 30rem;
+    margin: 100px auto 30px auto;
   }
 
  
@@ -940,7 +938,6 @@ h1 {
 
   .signHereTextBox {
     width: var(--width-full);
-    /*margin-left: 120px;*/
     margin-bottom: 30px;
     text-align: center;
   }
