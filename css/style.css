@@ -364,6 +364,18 @@ h1 {
 .seagullWave img {
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
+  pointer-events: none;
+}
+
+.seagullWaveMobile {
+  margin-top: -70px;
+}
+
+.seagullWaveMobile img {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  pointer-events: none;
+  width: var(--width-full);
 }
 
 .seagullButton button {
@@ -1005,6 +1017,10 @@ h1 {
 
 @media (width < 760px) {
 
+  :root {
+    --width-12col: var(--width-full)
+  }
+
   /* NAV BAR */
   .menuContainer {
     padding-left: 10px;
@@ -1018,8 +1034,117 @@ h1 {
     font-size: 16px;
   }
 
+  /* FOOTER */
+
+  .footerBox {
+    grid-template-columns: 1fr;
+  }
+
+  .footerBoxRight {
+    order: -1;
+    justify-content:center;
+    
+  }
+
+  .footerBoxRight ul li a {
+    font-size: 40px;
+  }
+
+  .footerMenus {
+    direction: rtl;
+  }
+
+  .footerBoxLeft {
+    margin: 10px 10px -10px 10px;
+  }
+
+
+
+  /* Hero */
+
+  .heroText {
+    grid-column: 2 / span 10;
+  }
+
+  .heroBottomRight {
+    grid-column: 2 / span 10;
+    margin-top: 300px;
+  }
+
+  .illustrationBarBox {
+    width: var(--width-full);
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .illustrationBarBoxStep {
+    margin: 7px 0;
+  }
+
+  .seagullBoxContent {
+    padding: 20px 25px;
+
+  }
+
+  .seagullSeagulls {
+    display: none;
+  }
+
+  .seagullWave {
+    display: none;
+  }
+
+  .seagullButton {
+    direction: rtl;
+  }
+
+  .socialPicSectionBox {
+    height: 1230px
+  }
+
+  .socialPicSectionPosts {
+    display: block;
+  }
+
+  .socialPicSectionText {
+    margin-bottom: 20px;
+  }
+
+  .socialPicSectionPostSection {
+    margin-bottom: 20px;
+  }
+
+  .VideoBox {
+    grid-column: 1 / span 12;
+  }
+
+  .VideoSectionTextBox {
+    grid-column: 1 / span 12;
+  }
+
+  .BottomTrashIcon {
+    margin-left: 0;
+    position:relative;
+    z-index: -1;
+    grid-column: 1 / span 12;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -100px;
+    margin-bottom: 20px;
+  }
+
+  .BottomTrashIcon img {
+    height: 400px;
+  }
+
 
 }
 
 
+@media (width > 760px) {
+  .seagullWaveMobile {
+    display: none;
+  }
 
+}
