@@ -844,6 +844,17 @@ h1 {
 
 /*subpage*/
 @media (width < 760px) {
+.heroVideoContainer{
+  width: var(--width-full);
+}
+
+.heroTextSubpage {
+  width: var(--width-full);
+}
+
+.heroSmallTextSubpage {
+  width: var(--width-full);
+}
 
   .infoBoxesContainer {
     width: var(--width-full);
