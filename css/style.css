@@ -829,18 +829,14 @@ h1 {
   color: var(--black);
 }
 
+
+
+/*subpage*/
 @media (width < 768px) {
 
   .infoBoxesContainer {
     width: var(--width-full);
     display: block;
-  }
-
-  .infoBoxesContainerText {
-    width: var(--width-full);
-    margin-top: 0px;
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
   }
 
   .infoBoxesContainerImage {
@@ -850,6 +846,21 @@ h1 {
     border-bottom-right-radius: 0px;
   }
 
+  .infoBoxesContainerText {
+    width: var(--width-full);
+    margin-top: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+  }
+
+ .infoBoxesContainerImageTwo {
+    width: var(--width-full);
+    height: 400px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    margin-top: 30px;
+  }
+
   .infoBoxesContainerTextTwo {
     width: var(--width-full);
     margin-top: 0px;
@@ -857,11 +868,13 @@ h1 {
     border-top-right-radius: 0px;
   }
 
-  .infoBoxesContainerImageTwo {
+   .infoBoxesContainerImageThree {
     width: var(--width-full);
     height: 400px;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
+    margin-top: 30px;
+
   }
 
   .infoBoxesContainerTextThree {
@@ -870,11 +883,13 @@ h1 {
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
   }
-  .infoBoxesContainerImageThree {
+
+ .infoBoxesContainerImageFour {
     width: var(--width-full);
     height: 400px;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
+    margin-top: 30px;
   }
 
   .infoBoxesContainerTextFour {
@@ -884,15 +899,22 @@ h1 {
     border-top-right-radius: 0px;
   }
 
-  .infoBoxesContainerImageFour {
-    width: var(--width-full);
-    height: 400px;
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
-  }
-
+ 
   .signHere {
     width: var(--width-full);
+    display: block;
+   margin-bottom: 50px;
+  }
+
+
+  .signHereTextBox {
+    width: var(--width-full);
+    margin-left: 120px;
+    margin-bottom: 30px;
+  }
+
+  .signHereButton {
+    margin-right: 190px;
   }
 
 
