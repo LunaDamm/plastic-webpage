@@ -876,4 +876,25 @@ h1 {
 
 
 
-/* WHAT.HTML */
+/*  */
+
+@media (width < 760px) {
+
+  /* NAV BAR */
+  .menuContainer {
+    padding-left: 10px;
+  }
+
+  .languageChanger {
+    padding-right: 10px;
+  }
+
+  .menuContainer ul {
+    font-size: 16px;
+  }
+
+
+}
+
+
+
