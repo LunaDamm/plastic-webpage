@@ -850,10 +850,12 @@ h1 {
 
 .heroTextSubpage {
   width: var(--width-full);
+  font-size: 24px;
 }
 
 .heroSmallTextSubpage {
   width: var(--width-full);
+  font-size: 15px;
 }
 
   .infoBoxesContainer {
