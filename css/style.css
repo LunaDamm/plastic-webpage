@@ -843,7 +843,7 @@ h1 {
 
 
 /*subpage*/
-@media (width < 768px) {
+@media (width < 760px) {
 
   .infoBoxesContainer {
     width: var(--width-full);
@@ -864,6 +864,14 @@ h1 {
     border-top-right-radius: 0px;
   }
 
+  .infoBoxesContainerTextBoxHeader {
+    font-size: 40px;
+  }
+
+  .infoBoxesContainerTextBoxMain {
+    font-size: 18px;
+  }
+
  .infoBoxesContainerImageTwo {
     width: var(--width-full);
     height: 400px;
@@ -877,6 +885,14 @@ h1 {
     margin-top: 0px;
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
+  }
+
+  .infoBoxesContainerTextBoxHeaderTwo {
+    font-size: 40px;
+  }
+
+  .infoBoxesContainerTextBoxMainTwo {
+    font-size: 18px;
   }
 
    .infoBoxesContainerImageThree {
@@ -895,6 +911,14 @@ h1 {
     border-top-right-radius: 0px;
   }
 
+  .infoBoxesContainerTextBoxHeaderThree {
+    font-size: 40px;
+  }
+
+  .infoBoxesContainerTextBoxMainThree {
+    font-size: 18px;
+  }
+
  .infoBoxesContainerImageFour {
     width: var(--width-full);
     height: 400px;
@@ -910,22 +934,36 @@ h1 {
     border-top-right-radius: 0px;
   }
 
+  .infoBoxesContainerTextBoxHeaderFour {
+    font-size: 40px;
+  }
+
+  .infoBoxesContainerTextBoxMainFour {
+    font-size: 18px;
+  }
+
  
   .signHere {
     width: var(--width-full);
     display: block;
-   margin-bottom: 50px;
+   margin-bottom: 100px;
   }
 
 
   .signHereTextBox {
     width: var(--width-full);
-    margin-left: 120px;
+    /*margin-left: 120px;*/
     margin-bottom: 30px;
+    text-align: center;
   }
 
   .signHereButton {
-    margin-right: 190px;
+    width: var(--width-full);
+    direction: ltr;
+    display: grid;
+    align-items: center;
+    padding-right: 150px;
+    padding-left: 150px;
   }
 
 
