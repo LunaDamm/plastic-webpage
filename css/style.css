@@ -746,9 +746,10 @@ h1 {
 /* SLIDESHOW */
 
 /*prøvet ud fra en YT video ------------ SKAL KIGGES NÆRMERE PÅ*/
+
 .slideshowContainer {
   position: relative;
-  max-width: 60rem;
+  max-width: 62rem;
   margin: 100px auto 30px auto;
 }
 
@@ -955,7 +956,7 @@ grid-column: 1 / span 8;
 
   .slideshowContainer {
     position: relative;
-    max-width: 30rem;
+width: var(--width-full);
     margin: 100px auto 30px auto;
   }
 
@@ -975,11 +976,10 @@ grid-column: 1 / span 8;
 
   .signHereButton {
     width: var(--width-full);
-    direction: ltr;
     display: grid;
     align-items: center;
-    padding-right: 150px;
-    padding-left: 150px;
+    padding-right: 10px;
+    padding-left: 10px;
   }
 
 
