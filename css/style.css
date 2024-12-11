@@ -748,9 +748,10 @@ h1 {
 /* SLIDESHOW VIRKER IKKE PÅ MOBIL-SAFARI */
 
 /*prøvet ud fra en YT video ------------ SKAL KIGGES NÆRMERE PÅ*/
+
 .slideshowContainer {
   position: relative;
-  max-width: 60rem;
+  max-width: 62rem;
   margin: 100px auto 30px auto;
 }
 
@@ -852,6 +853,12 @@ h1 {
 .heroTextSubpage {
   width: var(--width-full);
   font-size: 30px;
+  margin-top: 150px;
+}
+
+.heroBottomRightSubpage {
+margin-top: 200px;
+grid-column: 1 / span 8;
 }
 
 .heroSmallTextSubpage {
@@ -862,6 +869,7 @@ h1 {
   .infoBoxesContainer {
     width: var(--width-full);
     display: block;
+    margin-top: 430px;
   }
 
   .infoBoxesContainerImage {
@@ -950,7 +958,7 @@ h1 {
 
   .slideshowContainer {
     position: relative;
-    max-width: 30rem;
+width: var(--width-full);
     margin: 100px auto 30px auto;
   }
 
@@ -970,11 +978,10 @@ h1 {
 
   .signHereButton {
     width: var(--width-full);
-    direction: ltr;
     display: grid;
     align-items: center;
-    padding-right: 150px;
-    padding-left: 150px;
+    padding-right: 10px;
+    padding-left: 10px;
   }
 
 
