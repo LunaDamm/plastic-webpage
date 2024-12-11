@@ -745,6 +745,8 @@ h1 {
 
 /* SLIDESHOW */
 
+/* SLIDESHOW VIRKER IKKE PÅ MOBIL-SAFARI */
+
 /*prøvet ud fra en YT video ------------ SKAL KIGGES NÆRMERE PÅ*/
 .slideshowContainer {
   position: relative;
