@@ -315,10 +315,6 @@ h1 {
 }
 
 .seagullSection {
-  /*   display:grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: auto auto auto;
-  gap: var(--grid-gap); */
   height: 100%;
   width: var(--width-12col);
   margin: 42px auto 0 auto;
@@ -327,7 +323,7 @@ h1 {
 .seagullBox {
   background-color: var(--light-blue);
   width: var(--width-12col);
-  height: 310px;
+  height: 350px;
   border-radius: 5px;
 }
 
@@ -474,10 +470,11 @@ h1 {
   margin-bottom: 30px;
 }
 
-.VideoSectionTextBoxText h1 {
+.VideoSectionTextBoxText h2 {
   padding: 20px 0px 0px 25px;
   color: var(--darkblue);
-  font-size: 28px
+  font-size: 28px;
+  font-family: "Rufina";
 }
 
 .VideoSectionTextBoxText p {
