@@ -361,6 +361,8 @@ h1 {
 
 .seagullWave {
   margin-top: -170px;
+  z-index: 1;
+  position: relative;
 }
 
 .seagullWave img {
@@ -371,6 +373,7 @@ h1 {
 
 .seagullWaveMobile {
   margin-top: -70px;
+  z-index: 1;
 }
 
 .seagullWaveMobile img {
@@ -387,6 +390,8 @@ h1 {
   border: 0;
   font-size: 14px;
   margin-top: 6px;
+  position: relative;
+  z-index: 2;
 }
 
 .seagullButton button a {
