@@ -454,12 +454,20 @@ h1 {
 }
 
 .VideoBox {
-  /* Tom kasse til Video */
-  background-color: #F2F4F3;
-  height: 364px;
+  height: 392px;
   grid-column: 1 / span 7;
   border-radius: 5px;
   margin-bottom: 10px;
+}
+
+
+
+.VideoBoxContent iframe {
+  border-radius: 5px;
+}
+
+.VideoBoxContentMobile {
+  display: none;
 }
 
 .VideoSectionTextBox {
@@ -1159,8 +1167,24 @@ width: var(--width-full);
     height: 400px;
   }
 
+  .VideoBoxContent {
+    display: none;
+  }
+
+  .VideoBoxContentMobile {
+    display: block;
+  }
+
+  .VideoBox {
+    height: 225px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
 }
+
+
 
 
 @media (width > 760px) {
