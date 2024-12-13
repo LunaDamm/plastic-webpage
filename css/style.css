@@ -861,7 +861,7 @@ h1 {
 
 
 /*subpage*/
-@media (width < 768px) {
+@media (width < 550px) {
 .heroVideoContainer{
   width: var(--width-full);
 }
@@ -1055,7 +1055,7 @@ width: var(--width-full);
 
 /*  */
 
-@media (width < 768px) {
+@media (width < 550px) {
 
   :root {
     --width-12col: var(--width-full)
@@ -1198,7 +1198,7 @@ width: var(--width-full);
 
 
 
-@media (width > 760px) {
+@media (width > 500px) {
   .seagullWaveMobile {
     display: none;
   }
